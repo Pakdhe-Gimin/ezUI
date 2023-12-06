@@ -5,6 +5,7 @@ local ezUI = {}
 ezUI.Text = require("ezUI.components.text")
 ezUI.Button = require("ezUI.components.button")
 ezUI.Rectangle = require("ezUI.components.rectangle")
+ezUI.ProgressBar = require("ezUI.components.progressbar")
 -- Add other component requires similarly
 
 -- Components table to store created components
