@@ -25,6 +25,10 @@ function ProgressBar.new(x, y, width, height, startValue, minValue, maxValue, pr
         return self.value
     end
 
+    function self:setProgressColor(newColor)
+        self.progressColor = newColor
+    end
+
     function self:render()
         local currentBackgroundColor = term.getBackgroundColour()
 

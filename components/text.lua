@@ -11,6 +11,14 @@ function Text.new(x, y, content, textColor, bgColor, zIndex)
         zIndex = zIndex or 0
     }
 
+    function self:setText(newContent)
+        self.content = newContent
+    end
+
+    function self:getText()
+        return self.content
+    end
+
     function self:render()
         local currentBackgroundColor = term.getBackgroundColour()
 

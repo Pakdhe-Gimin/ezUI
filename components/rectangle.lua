@@ -11,6 +11,10 @@ function Rectangle.new(x, y, width, height, color, zIndex)
         zIndex = zIndex or 0 -- Default to layer 0
     }
 
+    function self:setColor(newColor)
+        self.color = newColor
+    end
+
     function self:render()
         local currentBackgroundColor = term.getBackgroundColour()
 
