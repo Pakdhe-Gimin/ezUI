@@ -8,7 +8,7 @@
    - It's as simple as it gets. Just download it, and then put it wherever your program folder is. 
 
 2. **Usage:**
-   - In your program, use `require("ezUI.main")` to load the components. Note: change the ezUI `ezUI` to the name of the folder in which main.lua is located.
+   - In your program, use `require("ezUI.main")` to load the components. Note: change the `ezUI` to the name of the folder in which main.lua is located.
 
 3. **Create Components:**
    - Use `ezUI.create()` to create components.
