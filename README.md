@@ -22,10 +22,10 @@
 ```lua
 local ezUI = require("ezUI.main")
 
-local text = ezUI.Text.new(5, 10, "Hello, ComputerCraft!", colors.red)
+local text = ezUI.Text.new(xPos, yPos, "Hello World!", colors.red)
 ezUI.create("Text", text)
 
-local button = ezUI.Button.new(5, 5, 15, 3, "Click me", colors.white, colors.blue, colors.lightBlue, onClickHandler)
+local button = ezUI.Button.new(xPos, yPos, width, height, "Click me", labelColor, buttonColor, onClickColor, onClickHandler)
 ezUI.create("Button", button)
 
 ezUI.render()
