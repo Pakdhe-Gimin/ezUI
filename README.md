@@ -1,6 +1,6 @@
 # ezUI - Simple UI Framework for ComputerCraft
 
-**ezUI** is a simple and easy-to-use UI framework for ComputerCraft.
+**ezUI** is a simple and easy-to-use UI framework for ComputerCraft. This framework is in early progress, except some bugs and missing functionality.
 
 ## Getting Started
 
