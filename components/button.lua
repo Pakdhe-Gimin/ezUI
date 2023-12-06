@@ -1,4 +1,4 @@
--- button.lua
+-- components/button.lua
 local Button = {}
 
 function Button.new(x, y, width, height, label, labelColor, buttonColor, clickedColor, onClick, zIndex)

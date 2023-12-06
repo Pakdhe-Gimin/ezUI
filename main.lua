@@ -6,6 +6,7 @@ ezUI.Text = require("ezUI.components.text")
 ezUI.Button = require("ezUI.components.button")
 ezUI.Rectangle = require("ezUI.components.rectangle")
 ezUI.ProgressBar = require("ezUI.components.progressbar")
+ezUI.ToggleButton = require("ezUI.components.togglebutton")
 -- Add other component requires similarly
 
 -- Components table to store created components
